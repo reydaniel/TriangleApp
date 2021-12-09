@@ -7,8 +7,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
+  test:
+    name: Test
     runs-on: macos-latest
 
     steps:
