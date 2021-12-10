@@ -40,7 +40,7 @@ class TriangleAppTests: XCTestCase {
     
     /// Function untuk memeriksa apakah inputan tidak sama semua, kembalikan kalimat segitiga sembarang
     func testDetectRandomTriangle() {
-        XCTAssertEqual(try detectTriangle(5, 4, 5), "Segitiga sembarang")
+        XCTAssertEqual(try detectTriangle(9, 4, 5), "Segitiga sembarang")
     }
     
     /// Function untuk memeriksa apakah inputan 3 bernilai sama dengan akar inputan 1^ + 2^
